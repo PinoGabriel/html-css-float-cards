@@ -36,7 +36,6 @@ main > p {
 
 /************* Blocchi ***************/
 .blocchi {
-    float: left;
     background-color: #0f0e17;
     color: white;
 }
@@ -44,20 +43,23 @@ main > p {
 .blocco1 {
     width: 400px;
     height: 130px;
-    margin: 25px 10px 0 15px;
-    background-color: #0f0e17;
+    margin: auto;
+    float: left;
 }
 
 .blocco2 {
     width: 400px;
     height: 130px;
-    margin: 25px 10px 0 22px;
+    margin-left: 46px;
+    padding-left: 0;
+    float: left;
 }
 
 .blocco3 {
     width: 400px;
     height: 130px;
-    margin: 25px 10px 0 21px;
+    margin-left: 35px;
+    float: right;
 }
 
 /************* Stile contenuto Blocchi ***************/
@@ -125,19 +127,19 @@ main > p {
 
 
 
-
+/************* Clearfix ***************/
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
 
-.clearfix {
-    padding-top: 25px;
-}
-
-  .dimensione {
+/************* classi ***************/
+.dimensione {
     height: 130px;
     float: left;
   }
 
+.spazio {
+    padding-top: 35px;
+}
