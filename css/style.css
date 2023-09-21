@@ -103,6 +103,27 @@ main > p {
     font-size: 15px;
 }
 
+.blocco3 > h2 {
+    font-size: 19px;
+    padding-left: 142px;
+    padding-top: 18px;
+}
+
+.blocco3 > p {
+    font-size: 19px;
+    padding-left: 142px;
+    padding-top: 13px;
+}
+
+.mail3 {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #17ccf2;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
 
 
 
