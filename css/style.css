@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin: 35px;
+}
+
+header h1 {
+    color: pink;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding: 25px;
+}
+
+.blocco1 {
+    float: left;
+    width: 400px;
+    height: 130px;
+    margin: 25px 10px 0 95px;
+    background-color: black;
+}
+
+.blocco2 {
+    float: left;
+    width: 400px;
+    height: 130px;
+    margin: 25px 10px 0 38px;
+    background-color: black;
+}
+
+.blocco3 {
+    float: left;
+    width: 400px;
+    height: 130px;
+    margin: 25px 10px 0 37px;
+    background-color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .dimensione {
+    height: 130px;
+    float: left;
+  }
