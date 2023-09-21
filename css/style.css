@@ -5,8 +5,12 @@
 }
 
 .container {
-    width: 80%;
+    width:70%;
     margin: auto;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
 }
 
 header {
@@ -14,7 +18,7 @@ header {
 }
 
 header h1 {
-    color: pink;
+    color: #e53170;
     text-align: center;
 }
 
@@ -23,28 +27,36 @@ main {
     padding: 25px;
 }
 
+main > p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
 .blocco1 {
     float: left;
     width: 400px;
     height: 130px;
-    margin: 25px 10px 0 95px;
-    background-color: black;
+    margin: 25px 10px 0 15px;
+    background-color: #0f0e17;
+    box-shadow: 0px 4px 11px 0px;
 }
 
 .blocco2 {
     float: left;
     width: 400px;
     height: 130px;
-    margin: 25px 10px 0 38px;
-    background-color: black;
+    margin: 25px 10px 0 22px;
+    background-color: #0f0e17;
+    box-shadow: 0px 4px 11px 0px;
 }
 
 .blocco3 {
     float: left;
     width: 400px;
     height: 130px;
-    margin: 25px 10px 0 37px;
-    background-color: black;
+    margin: 25px 10px 0 21px;
+    background-color: #0f0e17;
+    box-shadow: 0px 4px 11px 0px;
 }
 
 .clearfix::after {
@@ -52,6 +64,10 @@ main {
     clear: both;
     display: table;
   }
+
+.clearfix {
+    padding-top: 25px;
+}
 
   .dimensione {
     height: 130px;
